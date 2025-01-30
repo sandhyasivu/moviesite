@@ -1,0 +1,130 @@
+* {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    border: solid white
+    
+}
+
+.enjoy-text {
+    color: white;
+    font-weight: bold;
+    padding-right: 10px;
+    border: 5px;
+}
+
+.search-container {
+    width: 300px;
+    margin: 50px auto;
+    position: relative;
+    color: white;
+}
+
+#serachbox {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Category Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropbtn {
+    background-color:gray;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dropdown-content button:hover {
+    background: lightgray;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Image grid container */
+.container {
+    text-align: center;
+}
+
+/* Image row */
+.image-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Individual image box */
+.image-box {
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: none; /* Initially hidden, shown based on category */
+}
+
+.image-box a {
+    display: block;
+}
+
+/* Image styling */
+.image-box img {
+    width: 250px;
+    height: 300px;
+    display: block;
+    border-radius: 20px;
+}
+
+/* Text below image */
+.caption {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.hero-image{
+    width:800px;
+    height: 500px;
+   margin-left: 300px;
+    
+}
+p{
+    color: white;
+    font-size: 30px;
+}
